@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(cyber.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+
+}
+
+button{
+  font-size: 26px;
+  width: 350px;
+  border-radius: 12px;
+  background-color: lightblue;
+  color: black;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(white)
+}
+button:hover{
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(5px); 
+}
