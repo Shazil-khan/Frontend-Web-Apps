@@ -1,0 +1,63 @@
+#fh{
+    background-color:darkgreen;
+    padding-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#pe{
+    color: white;
+    padding-left: 43%;
+}
+#count-el{
+    color: white;
+    padding-left: 51.5%;
+    font-size: 50px ;
+}
+body
+{
+  background-image: url(station.png);
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+#Decrement{
+    margin-left: 45%;
+    padding: 18px 36px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+    background-color:darkred;
+    color: white;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+
+#increment-btn{
+    margin-left: 45%;
+    padding: 18px 40px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+    background-color:darkred;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    
+}
+#save{
+    margin-left: 45%;
+    padding: 18px 71px;
+    border: 0.5px solid gray;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 10px; 
+    font-size: 20px;
+
+}

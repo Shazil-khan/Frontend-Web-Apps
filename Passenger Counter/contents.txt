@@ -1,0 +1,10 @@
+script tag
+varables
+numbers
+string
+console.log
+funtions
+the DOM
+getElementbyID
+innerText
+textContent
