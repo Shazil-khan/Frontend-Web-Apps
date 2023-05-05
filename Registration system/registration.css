@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #ececec;
+}
+
+
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    /* backdrop-filter: blur(10px); */
+    margin: 50px auto;
+    background-color: rgb(28, 21, 21);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1.2rem;
+
+}
+form input{
+    width: 92%;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e7eaf6; 
+    outline: none;
+}
+
+#signup{
+    background: #42b883; 
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+    /* background: rgb(17, 107, 143);  */
+    margin-top: 1.2rem;
+}
+
+#signup:hover{
+    background-color: #5ae9b0;
+    box-shadow: 0px 2px 5px rgba(46, 229, 157, 0.2);
+    color: #fff;
+    transform: translateY(-2px); 
+}
+
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.terms {
+    margin-top: 0.2rem;
+    color: white;
+}
+.terms a{
+    margin-top: 0.2rem;
+    color: #42b883;
+    text-decoration: none;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.8rem;
+}
+
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+}
+
+.member a{
+    margin-top: 0.2rem;
+    color: #42b883;
+    text-decoration: none;
+}
